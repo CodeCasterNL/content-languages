@@ -1,0 +1,29 @@
+/* Copyright 2013 CodeCaster */
+
+body#select-language {
+	width: 375px;
+	background-color: #efefef;
+}
+
+a {
+	line-height: 35px;
+	text-decoration: none;
+	display: block;
+	background-color: #dfdfdf;
+}
+
+a.current {
+	background-color: #afafaf;
+}
+
+li {
+	width: 350px;
+	height: 35px;
+	border: 1px solid black;
+	list-style: none;
+	margin-left: -35px;
+}
+
+* {
+	font: Comic Sans, Arial, sans serif;
+}

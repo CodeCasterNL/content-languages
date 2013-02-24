@@ -1,0 +1,23 @@
+{
+  "name": "Content-Languages",
+  "version": "1.0",
+  "description": "Manage website languages using the browser",
+  "permissions": [
+		"http://*/*",
+        "https://*/*",
+        "webRequest",
+        "webRequestBlocking",
+		"webNavigation",
+		"tabs"],
+  "background": {
+	"page": "content-languages.html"
+  },
+  "browser_action": {
+    "default_icon": {
+      "19": "images/langiconclassic_r9_c19_disabled.png"
+    },
+    "default_title": "Content-Languages",
+    "default_popup": "select-language.html"
+  },
+  "manifest_version": 2
+}
